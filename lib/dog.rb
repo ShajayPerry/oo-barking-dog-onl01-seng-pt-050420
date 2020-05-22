@@ -2,5 +2,14 @@
 class Dog
   
   def name = (dog_name)
-    @this_dogs_name = dogs_name 
+    @fido = dogs_name 
   end 
+  
+  def name 
+    fido
+  end 
+  
+  def bark 
+    putd "woof!"
+  end 
+end 
